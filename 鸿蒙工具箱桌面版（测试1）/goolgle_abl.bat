@@ -1,0 +1,14 @@
+adb shell pm enable com.google.android.gms
+adb shell pm enable com.google.android.gsf
+adb shell pm enable com.android.vending
+adb shell pm enable com.google.android.onetimeinitializer
+adb shell pm enable com.google.android.partnersetup
+adb shell pm enable com.google.android.marvin.talkback
+adb shell pm enable com.android.ext.services
+adb shell pm enable com.google.android.backuptransport
+adb shell pm enable com.google.android.gsf.login
+adb shell pm enable com.google.android.printservice.recommendation
+adb shell pm enable com.google.android.feedback
+adb shell pm enable com.google.android.syncadapters.calendar
+adb shell pm enable com.google.android.syncadapters.contacts
+adb shell pm enable com.google.android.gsf.login

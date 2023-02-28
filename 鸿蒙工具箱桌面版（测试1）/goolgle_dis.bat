@@ -1,0 +1,14 @@
+adb shell pm disable-user com.google.android.gms
+adb shell pm disable-user com.google.android.gsf
+adb shell pm disable-user com.android.vending
+adb shell pm disable-user com.google.android.onetimeinitializer
+adb shell pm disable-user com.google.android.partnersetup
+adb shell pm disable-user com.google.android.marvin.talkback
+adb shell pm disable-user com.android.ext.services
+adb shell pm disable-user com.google.android.backuptransport
+adb shell pm disable-user com.google.android.gsf.login
+adb shell pm disable-user com.google.android.printservice.recommendation
+adb shell pm disable-user com.google.android.feedback
+adb shell pm disable-user com.google.android.syncadapters.calendar
+adb shell pm disable-user com.google.android.syncadapters.contacts
+adb shell pm disable-user com.google.android.gsf.login

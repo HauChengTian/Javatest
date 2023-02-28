@@ -1,0 +1,21 @@
+# 开启LightDoze功能
+adb shell dumpsys deviceidle enable light    
+
+#每执行一次，将会进入到LightDoze下一状态
+adb shell dumpsys deviceidle step light     
+
+# 查看当前Doze白名单
+adb shell dumpsys deviceidle whitelist   
+
+#将app加入白名单
+adb shell dumpsys deviceidle whitelist +<package>    #如：adb shell dumpsys deviceidle whitelist +com.oray.sunlogin.service
+
+#将app移除白名单
+adb shell dumpsys deviceidle whitelist -<package>   #如：adb shell dumpsys deviceidle whitelist -com.oray.sunlogin.service
+
+
+好好
+
+
+
+adb shell rm /bugreports/*.*
